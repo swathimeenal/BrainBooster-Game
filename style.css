@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.boxes{
+    margin : 45px auto;
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    gap: 20px;
+    box-sizing: border-box;
+    
+}
+.box{
+    heigth: 100 px;
+    background-color: gray;
+    cursor: pointer;
+    border-radius: 50 px;
+    border: 1px solid #333;
+    padding :10px;
+    
+}
